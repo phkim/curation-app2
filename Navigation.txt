@@ -1,0 +1,14 @@
+<NavigationContainer>
+  <(Stack = createStackNavigator).Navigator>
+    <Stack.Screen BottomTabNavigator>
+      <(BottomTab = createBottomTabNavigator).Navigator>
+        <BottomTab.Screen TabNavigator>
+          //TabOneNavigator
+          <(TabOneStack = createStackNavigator).Navigator>
+            TabOneScreen
+          </TabOneStack.Navigator>
+        </BottomTab.Screen>
+      </BottomTab>
+    </Stack>
+  </Stack.Navigator>
+</NavigationContainer>
